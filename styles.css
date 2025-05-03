@@ -162,7 +162,7 @@ p {
 
 .container2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 3rem;
 }
@@ -170,10 +170,80 @@ p {
 .item2 {
   background: white;
   border: 1px solid rgb(230, 82, 131);
-  width: 400px;
+  width: 23%;
   height: 300px;
   padding: 1.9rem;
-  margin: 0.50rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item2 img {
+  width: 200px; 
+  height: 220px;
+}
+
+.item3 {
+  background: white;
+  border: 1px solid rgb(230, 82, 131);
+  width: 23%;
+  height: 420px;
+  padding: 1.9rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item4 {
+  background: white;
+  border: 1px solid rgb(230, 82, 131);
+  width: 23%;
+  height: 260px;
+  padding: 1.9rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item4 img {
+  width: 200px; 
+  height: 190px;
+}
+
+.item5 {
+  background: white;
+  border: 1px solid rgb(230, 82, 131);
+  width: 23%;
+  height: 260px;
+  padding: 1.9rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item5 img {
+  width: 200px; 
+  height: 160px;
+}
+
+@media (max-width: 1024px) {
+  .item2 {
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .item2 {
+    width: 98%;
+  }
 }
 
 .showcase2 {
